@@ -214,8 +214,8 @@ namespace DllIm
             server = new SimpleTcpServer();
             server.Delimiter=0x13;
             server.StringEncoder = Encoding.UTF8;
-            var host = Dns.GetHostEntry("Papa-Romeo");
-            var ipaddress = host.AddressList[6];
+            var host = Dns.GetHostEntry("Lizz");
+            var ipaddress = host.AddressList[1];
             server.Start(ipaddress,51817);
             server.DataReceived += server_DataReceived;
         }

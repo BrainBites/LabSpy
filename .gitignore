@@ -9,6 +9,10 @@
 *.userosscache
 *.sln.docstates
 
+
+#Skip test project to add in git
+TestProject/
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
